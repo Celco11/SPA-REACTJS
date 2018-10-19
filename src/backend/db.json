@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Celço Chiles da Roxa Neto",
+            "email": "celcoroxa@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Clarice Barbieri Garcia da Roxa",
+            "email": "claricebarbieri@gmail.com"
+        }
+    ]
+}
