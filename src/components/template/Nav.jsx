@@ -7,7 +7,7 @@ export default props =>
             <a href="#/">
                 <i className="fa fa-home"></i> Início
             </a>
-            <a href="#/Users">
+            <a href="#/contas">
                 <i className="fa fa-dollar"></i> Contas a Pagar
             </a>
         </nav>

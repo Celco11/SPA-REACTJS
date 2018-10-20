@@ -1,14 +1,19 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Celço Chiles da Roxa Neto",
-            "email": "celcoroxa@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "Clarice Barbieri Garcia da Roxa",
-            "email": "claricebarbieri@gmail.com"
-        }
-    ]
+  "users": [
+    {
+      "name": "nuBank",
+      "email": "R$480,00",
+      "id": 1
+    },
+    {
+      "name": "Seguro do Carro",
+      "email": "R$420,00",
+      "id": 2
+    },
+    {
+      "name": "Unicesumar",
+      "email": "R$232,00",
+      "id": 3
+    }
+  ]
 }
