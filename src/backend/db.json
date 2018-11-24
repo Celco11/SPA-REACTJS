@@ -1,11 +1,6 @@
 {
   "users": [
     {
-      "name": "nuBank",
-      "email": "R$480,00",
-      "id": 1
-    },
-    {
       "name": "Seguro do Carro",
       "email": "R$420,00",
       "id": 2
@@ -14,6 +9,16 @@
       "name": "Unicesumar",
       "email": "R$232,00",
       "id": 3
+    },
+    {
+      "name": "Academia ",
+      "email": "R$ 79,00",
+      "id": 4
+    },
+    {
+      "name": "Cartao de crédito",
+      "email": "R$ 1100,00",
+      "id": 5
     }
   ]
 }
