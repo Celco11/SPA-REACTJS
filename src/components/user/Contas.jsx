@@ -54,7 +54,7 @@ class Contas extends Component {
 
     renderForm() {
         return (
-            <div className="for">
+            <div className="form">
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <div className="form-group">

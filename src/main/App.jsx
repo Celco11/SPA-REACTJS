@@ -10,7 +10,7 @@ import Routes from './Routes';
 import Footer from '../components/template/Footer';
 
 
-export default props =>
+export default () =>
     <HashRouter>
         <div className="app">
             <Logo />

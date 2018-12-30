@@ -3,9 +3,9 @@ import './Logo.css';
 import Logo from '../template/ps.png';
 
 
-export default props => 
-<aside className="logo">
-    <a href="/" className="logo">
-        <img src={Logo} alt="logo"></img>
-    </a>
-</aside>
+export default () =>
+    <aside className="logo">
+        <a href="/" className="logo">
+            <img src={Logo} alt="logo"></img>
+        </a>
+    </aside>
