@@ -29,9 +29,12 @@ class Contas extends Component {
     }
 
     save() {
-        const user = this.state.user;
+        const { user } = this.state;
         const method = user.id ? 'put' : 'post';
         const url = user.id ? `${baseUrl}/${user.id}` : baseUrl;
+        if (!(user.name && user.email)) {
+            alert("Informe os campos abaixo");
+        }
         axios[method](url, user)
             .then(resp => {
                 const list = this.getUpdateList(resp.data)
@@ -41,9 +44,10 @@ class Contas extends Component {
     }
 
     getUpdateList(user, add = true) {
-        const list = this.state.list.filter(u => u.id !== user.id)
-        if(add) list.unshift(user)
-        return list;
+        const { list } = this.state;
+        const listUser = list.filter(u => u.id !== user.id)
+        if (add) listUser.unshift(user)
+        return listUser;
     }
 
     updateField(event) {
@@ -93,7 +97,7 @@ class Contas extends Component {
 
     remove(user) {
         axios.delete(`${baseUrl}/${user.id}`).then(resp => {
-            const list = this.getUpdateList(user, false )
+            const list = this.getUpdateList(user, false)
             this.setState({ list })
         })
     }
